@@ -14,6 +14,10 @@ public class Desktop implements Hardware,Software {
 	private void desktopModel1() {
 		System.out.println("Desktop Model1");
 	}
+	private void addToKart() {
+		System.out.println("Hai");
+
+	}
 public static void main(String[] args) {
 	Desktop d = new Desktop();
 	d.desktopModel1();
